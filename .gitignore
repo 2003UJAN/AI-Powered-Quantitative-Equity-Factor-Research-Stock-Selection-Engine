@@ -1,0 +1,59 @@
+.streamlit/secrets.toml
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and API keys
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Streamlit cache
+.streamlit/cache/
+
+# Model artifacts and large datasets
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.parquet
+*.feather
